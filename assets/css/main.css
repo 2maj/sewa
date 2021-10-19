@@ -3,6 +3,10 @@ a{
     text-decoration: none !important;
 }
 
+.btn{
+    background: linear-gradient(#2a2a29, #1c1c1c);
+}
+
 body{
     background: linear-gradient(#2a2a29, #1c1c1c);
 }

@@ -1,6 +1,8 @@
-footer{
-    background-color: #1c1f23;
-}
+
 a{
     text-decoration: none !important;
+}
+
+body{
+    background: linear-gradient(#2a2a29, #1c1c1c);
 }

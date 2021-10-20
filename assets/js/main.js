@@ -1,5 +1,21 @@
 $( document ).ready(function() {
     console.log( "ready!" );
+
+    $('.carousel').carousel()
+    $('.carousel').carousel({
+        interval: 1,
+    })
+    $('#carousel').on('slid.bs.carousel', function () {
+        console.log($(this).find('.active .container'))
+        $(this).find('.active .container').show()
+        $(this).find('.active .container').animate({
+            width: "100%",
+            opacity: 1,
+            fontSize: "1em",
+            borderWidth: "10px"
+        }, 100 );
+    })
+
     function includeHTML() {
         var z, i, elmnt, file, xhttp;
         z = document.getElementsByTagName("*");

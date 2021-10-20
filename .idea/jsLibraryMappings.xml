@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{all, bootstrap, jquery-3.2.1.slim, mdb-ui-kit, popper.js}" />
+    <file url="PROJECT" libraries="{all, bootstrap, d3-v4-cloud, jquery, jquery-3.2.1.slim, jquery-3.5.0, jquery-3.6.0, mdb-ui-kit, popper.js}" />
   </component>
 </project>

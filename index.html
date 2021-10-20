@@ -12,23 +12,31 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
   </head>
 
-  <body class="bg-light">
-  <div class="row bg-dark align-items-center" style="height: 6rem">
-    <div class="container bg-dark" include-html="pages/base/navbar.html"></div>
+  <body class="">
+  <div class="col d-flex align-items-center" style="height: 6rem">
+    <div class="container h-100" include-html="pages/base/navbar.html"></div>
+  </div>
+
+  <div id="carousel" class="carousel slide  carousel-fade h-100" data-bs-ride="carousel">
+    <div class="d-none d-lg-flex" include-html="pages/components/home/carousel.html"></div>
   </div>
     <main class="container pt-4">
       <div class="row pt-4 p-3">
         <div class="col" include-html="pages/components/home/participants.html">
         </div>
       </div>
+      <div class="row pt-4 p-3">
+        <div class="col" include-html="pages/components/termes/termes.html">
+        </div>
+      </div>
     </main>
-  <div class="" include-html="pages/base/footer.html"></div>
+  <div class="col" include-html="pages/base/footer.html"></div>
   </body>
 
 </html>
